@@ -1,9 +1,9 @@
 # TASK
 ## Login the game
-- Sever: bandit0@bandit.labs.overthewire.org
+- Sever: bandit.labs.overthewire.org
 - Port: 2220
-- Username: Bandit 0
-- Password: bandit 0
+- Username: Bandit0
+- Password: bandit0
 # Solution
 ## Using the command below
 ```ssh bandit0@bandit.labs.overthewire.org -p 2220 ```
