@@ -7,7 +7,7 @@
 # Solution
 ## Using the command below
 ```ssh bandit0@bandit.labs.overthewire.org -p 2220 ```
-## Then read then manpage with the following command
+## Then go into readme file with the following command
 ``` cat readme ```
 #### Output
 ```
