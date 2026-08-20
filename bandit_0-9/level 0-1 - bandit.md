@@ -1,6 +1,6 @@
 # Task
 #### Find the password in a file called readme that located in the home directory
-- Password of the previous level: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
+- Password found in the previous level: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 # Solution:
 - Using the ``` ls -la ``` command to view all the files in the folder
 - Notice that there is a file named ```-```
