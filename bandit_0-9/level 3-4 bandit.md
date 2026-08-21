@@ -6,4 +6,6 @@
  <img width="999" height="148" alt="image" src="https://github.com/user-attachments/assets/662d782a-80d7-44c7-9b64-35ff295a4539" />
 - This ouput showed a hidden file name ```...Hiding-From-You```, then we can use this following command and find the password.
 ```cat inhere/...Hiding-From-You```
-# The password found/Output: xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
+
+# The password found/Output: 
+```xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq```
