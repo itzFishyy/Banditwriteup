@@ -1,5 +1,5 @@
 # TASK
-#### Find the password stored in a hidden file in the inhere directory
+#### Find the password stored in a hidden file in the ```inhere``` directory
 - Password found in the previous level: 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
 # Solution
 - Since the file is stated to be hidden in the inhere, we first use ```ls -la inhere``` to view the hidden file, which gives the output
