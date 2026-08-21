@@ -5,6 +5,8 @@
 - Like the previous level, we first use the command ``` ls -la ``` to view all the files in the folder.
 - We can see that there is a file named ```--spaces in this filename--```
 - This filename contains spaces between the name, so obviously ```cat ./--spaces in the filename``` will not work. To deal with it, we can use ```./``` and ```\``` in our command, which look something like this
-```cat ./--spaces\ in\ this\ filename--```
+```bash
+cat ./--spaces\ in\ this\ filename--
+```
 ## Password
 ## ```7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME```
