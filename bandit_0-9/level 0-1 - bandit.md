@@ -19,4 +19,4 @@ contribute to the OverTheWire community so we can keep these games free!
 
 The password you are looking for is: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 ```
-# The password found: ```6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR```
+## The password found: ```6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR```
