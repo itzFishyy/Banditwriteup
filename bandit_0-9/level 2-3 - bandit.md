@@ -6,4 +6,4 @@
 - We can see that there is a file named ```--spaces in this filename--```
 - This filename contains spaces between the name, so obviously ```cat ./--spaces in the filename``` will not work. To deal with it, we can use ```./``` and ```\``` in our command, which look something like this
 ```cat ./--spaces\ in\ this\ filename--```
-## The password found ```7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME```
+## The password found: ```7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME```
