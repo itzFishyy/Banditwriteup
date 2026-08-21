@@ -1,13 +1,13 @@
 # TASK
-## Login the game
-- Sever: bandit.labs.overthewire.org
+## Log in the game
+- Server: bandit.labs.overthewire.org
 - Port: 2220
-- Username: Bandit0
+- Username: bandit0
 - Password: bandit0
 # Solution
 ## Using the command below
 ```ssh bandit0@bandit.labs.overthewire.org -p 2220 ```
-## Then go into readme file with the following command
+## Then read the ```readme``` file with the following command
 ``` cat readme ```
 #### Output
 ```
@@ -19,3 +19,4 @@ contribute to the OverTheWire community so we can keep these games free!
 
 The password you are looking for is: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 ```
+# The password found: ```6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR```
