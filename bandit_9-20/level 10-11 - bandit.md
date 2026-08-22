@@ -1,5 +1,5 @@
 # TASK
-#### (Challenge description)
+#### Find the password for the next level stored in the file data.txt, which contains base64 encoded data
 - Password found in the previous level: B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
 # Solution
 - Use the command ```base64 -d data.txt``` to decode the file
