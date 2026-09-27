@@ -4,7 +4,7 @@
 ```A hint file can be found in the home directory and make sure to read the error messages as they are informative.```
 - Password found in the previous level: qQYQiHOBPR8zR61qxYqX45quvihF2uzk
 # Solution
-- As the hint stated, we first try to view the ```HINT``` file in the home directory.
+- As the hint stated, i first try to view the ```HINT``` file in the home directory.
 ```bash
 bandit13@bandit:~$ ls -la
 total 28
@@ -27,5 +27,11 @@ If you have trouble with this level, note the following:
 4) If you get errors, read the error message on your screen.
    We mean it!
 ```
+- Then i use ```file``` on the file called ```sshkey.private```
+```bash
+bandit13@bandit:~$ file sshkey.private
+sshkey.private: OpenSSH private key
+```
+- The level have state that i need ```a private SSH key that can be used to log into the next level```, which is bandit14, where the ```OpenSSH public key``` and the password for the next level is located. 
 ## Password
-## ```(Password)```
+## ```aaWecNkG4FhxJQxz07uiwzVP6bJiYS65```
