@@ -32,6 +32,7 @@ If you have trouble with this level, note the following:
 bandit13@bandit:~$ file sshkey.private
 sshkey.private: OpenSSH private key
 ```
-- The level have state that i need ```a private SSH key that can be used to log into the next level```, which is bandit14, where the ```OpenSSH public key``` and the password for the next level is located. 
+- The level have state that ```The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14```, which is where the ```OpenSSH public key``` and the password for the next level is located.
+- Using ```scp``` to copy the ```sshkey.privatekey``` file
 ## Password
 ## ```aaWecNkG4FhxJQxz07uiwzVP6bJiYS65```
