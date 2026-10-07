@@ -33,6 +33,31 @@ bandit13@bandit:~$ file sshkey.private
 sshkey.private: OpenSSH private key
 ```
 - The level have state that ```The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14```, which is where the ```OpenSSH public key``` and the password for the next level is located.
-- Using ```scp``` to copy the ```sshkey.privatekey``` file
+- Using ```scp``` to copy the ```sshkey.privatekey``` file. Using the password for ```bandit13```: ```qQYQiHOBPR8zR61qxYqX45quvihF2uzk```
+```bash
+itzfishyy@LAPTOP-0V9Q38R1:~$ scp -P 2220 bandit13@bandit.labs.overthewire.org:/home/bandit13/sshkey.private .
+                         _                     _ _ _
+                        | |__   __ _ _ __   __| (_) |_
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+
+
+                      This is an OverTheWire game server.
+            More information on http://www.overthewire.org/wargames
+
+backend: gibson-0
+bandit13@bandit.labs.overthewire.org's password:
+sshkey.private                                                              100% 2602     4.8KB/s   00:00
+```
+- Now that i have copy the file, i then move to the ```bandit14```, enter follow the path ```/etc/bandit_pass/bandit14``` in the hint and get the password
+```bash
+itzfishyy@LAPTOP-0V9Q38R1:~$ ssh bandit14@bandit.labs.overthewire.org -p 2220 -i sshkey.private
+```
+```bash
+bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
+aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
+```
+
 ## Password
 ## ```aaWecNkG4FhxJQxz07uiwzVP6bJiYS65```
