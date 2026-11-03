@@ -7,7 +7,7 @@
 bandit14@bandit:~$ nc localhost 30000
 
 ```
-- Using the password found in the previous level
+- Using the password found in the previous level to enter ```bandit14```
 ```bash
 bandit14@bandit:~$ nc localhost 30000
 aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
