@@ -1,5 +1,5 @@
 # CHALLENGE DESCRIPTION
-#### (Challenge description
+#### (Challenge description)
 - Password found in the previous level: (password)
 # Solution
 (Write the solution)
