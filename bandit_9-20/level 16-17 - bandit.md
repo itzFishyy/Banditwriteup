@@ -6,8 +6,12 @@
 - The main, obvious difference between this level and the previous from ```14 to 16``` is that i have to submit the current password to multiple ports instead of one.
 - First i try to see which ports have a server listening on them, and just for a safe place to store files generated in the level, i'll make a temporary directory.
 ```bash
-
+bandit16@bandit:~$ mktemp -d
+/tmp/tmp.jLHsHqksxf
+bandit16@bandit:~$ cd /tmp/tmp.jLHsHqksxf
+bandit16@bandit:/tmp/tmp.jLHsHqksxf$
 ```
+
 ## Password
 ## ```(Password)```
 
