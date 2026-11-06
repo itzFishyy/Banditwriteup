@@ -83,6 +83,7 @@ bandit16@bandit:/tmp/tmp.I8NKsyPY3H$ ls
 opensshkey.private
 bandit16@bandit:/tmp/tmp.I8NKsyPY3H$ chmod 600 opensshkey.private
 ```
+- Now exit bandit16, copy the key and paste it to another file so i can log in to the next level, using ```nano```
 ## Password
 ## ```opensshkey.private```
 
