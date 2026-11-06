@@ -84,5 +84,5 @@ opensshkey.private
 bandit16@bandit:/tmp/tmp.I8NKsyPY3H$ chmod 600 opensshkey.private
 ```
 ## Password
-## ```sshkey.private```
+## ```opensshkey.private```
 
